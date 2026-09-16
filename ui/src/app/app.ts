@@ -1,6 +1,8 @@
 import { Component, inject, signal } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { RouterOutlet } from '@angular/router';
+import { AppContants } from './core';
+import { IconRegistry } from './core/services/icon-registry';
 
 @Component({
   imports: [RouterOutlet],
@@ -10,9 +12,12 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   private readonly documentTitle = inject(Title);
-  protected readonly title = signal($localize`:@@appTitle:Fogás POS`);
+  private iconRegistry = inject(IconRegistry);
+  protected readonly title = signal($localize`:@@appTitle:${ AppContants.APP_NAME }`);
 
   constructor() {
     this.documentTitle.setTitle(this.title());
+    this.iconRegistry.registerIcons();
   }
+
 }

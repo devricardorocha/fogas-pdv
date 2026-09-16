@@ -8,7 +8,11 @@ export const routes: Routes = [
     },
     {
         path: 'start',
-        loadComponent: () => import('./features/start-screen/start-screen').then((m) => m.StartScreen),
+        loadComponent: () => import('./core/components/start-page/start-page').then((m) => m.StartPage),
+    },
+    {
+        path: 'app',
+        loadComponent: () => import('./core/components/app-root/app-root').then((m) => m.AppRoot),
     },
     {
         path: 'catalog',

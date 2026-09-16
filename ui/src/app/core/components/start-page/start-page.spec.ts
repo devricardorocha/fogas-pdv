@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { StartScreen } from './start-screen';
+import { StartPage } from './start-page';
 
-describe('StartScreen', () => {
-  let component: StartScreen;
-  let fixture: ComponentFixture<StartScreen>;
+describe('StartPage', () => {
+  let component: StartPage;
+  let fixture: ComponentFixture<StartPage>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [StartScreen],
+      imports: [StartPage],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(StartScreen);
+    fixture = TestBed.createComponent(StartPage);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

@@ -7,11 +7,11 @@ import { MatButtonModule } from '@angular/material/button';
   imports: [
     MatButtonModule
   ],
-  selector: 'app-start-screen',
-  styleUrl: './start-screen.scss',
-  templateUrl: './start-screen.html',
+  selector: 'app-start-page',
+  styleUrl: './start-page.scss',
+  templateUrl: './start-page.html',
 })
-export class StartScreen implements OnInit, OnDestroy {
+export class StartPage implements OnInit, OnDestroy {
   protected readonly showStartButton = signal(false);
 
   private transitionTimer?: ReturnType<typeof setTimeout>;
@@ -26,7 +26,7 @@ export class StartScreen implements OnInit, OnDestroy {
   }
 
   goToCatalog(): void {
-    this.router.navigate(['/catalog']);
+    this.router.navigate(['/app']);
   }
 
 }

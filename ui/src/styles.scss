@@ -13,7 +13,7 @@ html {
     (
       color: (
         primary: mat.$azure-palette,
-        tertiary: mat.$green-palette,
+        tertiary: mat.$blue-palette,
         theme-type: light,
       ),
       typography: Roboto,
@@ -48,4 +48,13 @@ html {
   height: 100%;
   margin: 0;
   overflow: hidden;
+}
+
+// Apply a filled background globally (e.g., using theme primary color)
+:root {
+  @include mat.toolbar-overrides((
+    container-background-color: var(--mat-sys-primary),
+    container-text-color: var(--mat-sys-on-primary),
+  ));
+
 }
