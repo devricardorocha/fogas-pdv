@@ -1,0 +1,81 @@
+@use '@angular/material' as mat;
+
+// Include standard core styles once
+@include mat.core();
+
+// Fogás Primary: Deep Corporate Blue
+$fogas-primary: (
+  0: #000000,
+  10: #00174d,
+  20: #00297a,
+  30: #003da8,
+  40: #0052d6, // Primary mid-tone
+  50: #2b6bf5,
+  60: #5785ff,
+  70: #85a4ff,
+  80: #b3c5ff,
+  90: #dce3ff,
+  95: #eef1ff,
+  100: #ffffff,
+);
+
+// Fogás Secondary / Accent: Brand Yellow/Amber
+$fogas-tertiary: (
+  0: #000000,
+  10: #261900,
+  20: #422d00,
+  30: #604200,
+  40: #805800,
+  50: #a27000,
+  60: #c58900,
+  70: #eaa400,
+  80: #ffc03d, // Accent highlight
+  90: #ffdf9e,
+  95: #ffeed0,
+  100: #ffffff,
+);
+
+// Neutral Surface & Background
+$fogas-neutral: (
+  0: #000000,
+  10: #1a1c1e,
+  20: #2f3033,
+  40: #5c5e62,
+  60: #8e9095,
+  80: #c6c6cb,
+  90: #e2e2e6,
+  95: #f1f0f4,
+  98: #f9f9fc,
+  100: #ffffff,
+);
+
+// Define theme token object
+$fogas-theme: mat.define-theme((
+  color: (
+    theme-type: light,
+    primary: mat.$azure-palette,
+    tertiary: mat.$orange-palette,
+    use-system-variables: true,
+  ),
+  typography: (
+    plain-family: 'Roboto, "Helvetica Neue", sans-serif',
+    brand-family: 'Roboto, "Helvetica Neue", sans-serif',
+    bold-weight: 700,
+    medium-weight: 500,
+    regular-weight: 400,
+  ),
+  density: (
+    scale: 0,
+  )
+));
+
+// Direct CSS Custom Property mapping for Brand Identifiers
+:root {
+  --fogas-blue: #003399;
+  --fogas-blue-dark: #002266;
+  --fogas-yellow: #ffcc00;
+  --fogas-yellow-hover: #e6b800;
+  --fogas-gray-bg: #f4f6f9;
+  --fogas-text-dark: #222222;
+  --fogas-border-radius: 8px;
+}

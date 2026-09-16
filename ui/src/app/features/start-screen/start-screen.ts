@@ -1,8 +1,12 @@
 import { Component, OnDestroy, OnInit, signal, inject } from '@angular/core';
 import { Router } from '@angular/router';
 
+import { MatButtonModule } from '@angular/material/button';
+
 @Component({
-  imports: [],
+  imports: [
+    MatButtonModule
+  ],
   selector: 'app-start-screen',
   styleUrl: './start-screen.scss',
   templateUrl: './start-screen.html',
