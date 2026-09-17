@@ -1,0 +1,281 @@
+{
+  "products": [
+    {
+      "application": "Fogões domésticos",
+      "diameter_mm": "272",
+      "height_mm": "341",
+      "id": 1,
+      "internal_pressure": "2 a 7 Kg/cm²",
+      "main_consumer_region": "Rio Grande do Sul, Mato Grosso de Sul, São Paulo, Rio de Janeiro, Minas Gerais, Pará, Maranhão, Piauí, Ceará, Bahia, Pernambuco.",
+      "material": "Aço carbono de 2,5 a 3,0 mm de espessura",
+      "name": "P5",
+      "safety_device": "Plugue fusível",
+      "suggested_price": 60,
+      "valve_standard": "Norma ABNT NBR 8614",
+      "weight_kg": "5"
+    },
+    {
+      "application": "Fogões domésticos",
+      "diameter_mm": "300",
+      "height_mm": "464",
+      "id": 2,
+      "internal_pressure": "2 a 7 Kg/cm²",
+      "main_consumer_region": "São Paulo, Mato Grosso, Rio de Janeiro, Piauí, Maranhão, Sergipe e Rondônia",
+      "material": "Aço carbono de 2,5 a 3,0 mm de espessura",
+      "name": "P-8",
+      "safety_device": "Plugue fusível",
+      "suggested_price": 80,
+      "valve_standard": "Norma ABNT NBR 8614",
+      "weight_kg": "8"
+    },
+    {
+      "application": "Fogões domésticos",
+      "diameter_mm": "360",
+      "height_mm": "476",
+      "id": 3,
+      "internal_pressure": "2 a 7 Kg/cm²",
+      "main_consumer_region": "Todas as regiões do Brasil",
+      "material": "Aço carbono de 2,5 a 3,0 mm de espessura",
+      "name": "P-13",
+      "safety_device": "Plugue fusível",
+      "suggested_price": 100,
+      "valve_standard": "Norma ABNT NBR 8614",
+      "weight_kg": "13"
+    },
+    {
+      "application": "Empilhadeiras e balonismo.",
+      "diameter_mm": "310",
+      "height_mm": "878",
+      "id": 4,
+      "internal_pressure": "2 a 7 Kg/cm²",
+      "main_consumer_region": "Todas as regiões do Brasil",
+      "material": "Aço carbono de 2,5 a 3,0 mm de espessura",
+      "name": "P-20",
+      "safety_device": "Válvula sobre pressão",
+      "suggested_price": 150,
+      "valve_standard": "Norma ABNT NBR 8614 (consumo)",
+      "weight_kg": "20"
+    },
+    {
+      "application": "Condomínios, indústrias, hospitais, bares, restaurantes, farmácias, balonismo entre outras.",
+      "diameter_mm": "376,5",
+      "height_mm": "1299",
+      "id": 5,
+      "internal_pressure": "2 a 7 Kg/cm²",
+      "main_consumer_region": "Todas as regiões do Brasil",
+      "material": "Aço carbono de 2,5 a 3,0 mm de espessura",
+      "name": "P-45",
+      "safety_device": "Válvula sobre pressão",
+      "suggested_price": 240,
+      "valve_standard": "Norma ABNT NBR 8614 (consumo)",
+      "weight_kg": "45"
+    },
+    {
+      "application": "Condomínios, indústrias, hospitais, bares, restaurantes, farmácias, balonismo entre outras.",
+      "diameter_mm": "556",
+      "height_mm": "1203,5",
+      "id": 6,
+      "internal_pressure": "2 a 7 Kg/cm²",
+      "main_consumer_region": "Todas as regiões do Brasil",
+      "material": "Aço carbono de 2,5 a 3,0 mm de espessura",
+      "name": "P-90",
+      "safety_device": "Válvula sobre pressão",
+      "suggested_price": 310,
+      "valve_standard": "Norma ABNT NBR 8614 (consumo)",
+      "weight_kg": "90"
+    }
+  ],
+  "stocks": [
+    {
+      "items": [
+        {
+          "cost_price": 55,
+          "currency": "BRL",
+          "product_id": 1,
+          "quantity_available": 35,
+          "selling_price": 75
+        },
+        {
+          "cost_price": 70,
+          "currency": "BRL",
+          "product_id": 2,
+          "quantity_available": 20,
+          "selling_price": 92
+        },
+        {
+          "cost_price": 85,
+          "currency": "BRL",
+          "product_id": 3,
+          "quantity_available": 120,
+          "selling_price": 105
+        },
+        {
+          "cost_price": 140,
+          "currency": "BRL",
+          "product_id": 4,
+          "quantity_available": 15,
+          "selling_price": 180
+        },
+        {
+          "cost_price": 340,
+          "currency": "BRL",
+          "product_id": 5,
+          "quantity_available": 8,
+          "selling_price": 420
+        },
+        {
+          "cost_price": 680,
+          "currency": "BRL",
+          "product_id": 6,
+          "quantity_available": 2,
+          "selling_price": 820
+        }
+      ],
+      "store_id": 1
+    },
+    {
+      "items": [
+        {
+          "cost_price": 58,
+          "currency": "BRL",
+          "product_id": 1,
+          "quantity_available": 15,
+          "selling_price": 79.9
+        },
+        {
+          "cost_price": 72.5,
+          "currency": "BRL",
+          "product_id": 2,
+          "quantity_available": 10,
+          "selling_price": 95
+        },
+        {
+          "cost_price": 86,
+          "currency": "BRL",
+          "product_id": 3,
+          "quantity_available": 85,
+          "selling_price": 110
+        },
+        {
+          "cost_price": 145,
+          "currency": "BRL",
+          "product_id": 4,
+          "quantity_available": 5,
+          "selling_price": 189
+        },
+        {
+          "cost_price": 350,
+          "currency": "BRL",
+          "product_id": 5,
+          "quantity_available": 4,
+          "selling_price": 435
+        },
+        {
+          "cost_price": 690,
+          "currency": "BRL",
+          "product_id": 6,
+          "quantity_available": 0,
+          "selling_price": 840
+        }
+      ],
+      "store_id": 2
+    },
+    {
+      "items": [
+        {
+          "cost_price": 56,
+          "currency": "BRL",
+          "product_id": 1,
+          "quantity_available": 10,
+          "selling_price": 77
+        },
+        {
+          "cost_price": 71,
+          "currency": "BRL",
+          "product_id": 2,
+          "quantity_available": 12,
+          "selling_price": 94
+        },
+        {
+          "cost_price": 84.5,
+          "currency": "BRL",
+          "product_id": 3,
+          "quantity_available": 60,
+          "selling_price": 108
+        },
+        {
+          "cost_price": 138,
+          "currency": "BRL",
+          "product_id": 4,
+          "quantity_available": 25,
+          "selling_price": 175
+        },
+        {
+          "cost_price": 335,
+          "currency": "BRL",
+          "product_id": 5,
+          "quantity_available": 12,
+          "selling_price": 415
+        },
+        {
+          "cost_price": 670,
+          "currency": "BRL",
+          "product_id": 6,
+          "quantity_available": 5,
+          "selling_price": 810
+        }
+      ],
+      "store_id": 3
+    }
+  ],
+  "stores": [
+    {
+      "address": {
+        "city": "Jaboatão dos Guararapes",
+        "country": "BR",
+        "state": "PE",
+        "street": "Rua Aniceto Varejão, 10",
+        "zip_code": "54400-400",
+        "zone": "Piedade"
+      },
+      "document_number": "67691080000140",
+      "email": "depositocurvados@gmail.com",
+      "id": 1,
+      "label": "Depósito da Curva do S",
+      "name": "Depósito Curva do S LTDA",
+      "phone_number": "+5581998866551"
+    },
+    {
+      "address": {
+        "city": "Recife",
+        "country": "BR",
+        "state": "PE",
+        "street": "Avenida Conde da Boa Vista, 450",
+        "zip_code": "50060-002",
+        "zone": "Boa Vista"
+      },
+      "document_number": "14238541000189",
+      "email": "contato@emporioboavista.com.br",
+      "id": 2,
+      "label": "Empório Boa Vista",
+      "name": "Comércio de Alimentos Boa Vista EIRELI",
+      "phone_number": "+5581987712345"
+    },
+    {
+      "address": {
+        "city": "Cabo de Santo Agostinho",
+        "country": "BR",
+        "state": "PE",
+        "street": "Rodovia PE-60, Km 12",
+        "zip_code": "54518-000",
+        "zone": "Garapu"
+      },
+      "document_number": "28912304000172",
+      "email": "vendas@litoralsulpecas.com.br",
+      "id": 3,
+      "label": "Litoral Sul Auto Peças",
+      "name": "Auto Peças Litoral Sul LTDA",
+      "phone_number": "+5581991234567"
+    }
+  ]
+}

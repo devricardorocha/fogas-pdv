@@ -13,8 +13,10 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class StartPage implements OnInit, OnDestroy {
   protected readonly showStartButton = signal(false);
+  protected readonly isLeaving = signal(false);
 
   private transitionTimer?: ReturnType<typeof setTimeout>;
+  private navigationTimer?: ReturnType<typeof setTimeout>;
   private router = inject(Router);
 
   ngOnInit(): void {
@@ -23,10 +25,16 @@ export class StartPage implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     clearTimeout(this.transitionTimer);
+    clearTimeout(this.navigationTimer);
   }
 
   goToCatalog(): void {
-    this.router.navigate(['/app']);
+    if (this.isLeaving()) {
+      return;
+    }
+
+    this.isLeaving.set(true);
+    this.navigationTimer = setTimeout(() => this.router.navigate(['/app']), 300);
   }
 
 }

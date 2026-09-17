@@ -1,5 +1,5 @@
 
-<main class="main">
+<main class="main" [class.main--leaving]="isLeaving()">
   <div class="content" [class.content--raised]="showStartButton()">
     <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@
   </div>
 
   @if (showStartButton()) {
-    <button matButton="filled" class="start-button" type="button" 
+    <button matButton="filled" class="start-button" type="button" [disabled]="isLeaving()"
         i18n="@@startButton" (click)="goToCatalog()">
         Click to start
     </button>

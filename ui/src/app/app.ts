@@ -1,8 +1,8 @@
 import { Component, inject, signal } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { RouterOutlet } from '@angular/router';
 import { AppContants } from './core';
 import { IconRegistry } from './core/services/icon-registry';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   imports: [RouterOutlet],

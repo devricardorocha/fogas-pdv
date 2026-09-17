@@ -1,1 +1,6 @@
-<p>product-catalog works!</p>
+<h1 i18n>Products selection</h1>
+<div>
+    @for (product of products; track $index) {
+        {{ product.application }}, 
+    }
+</div>

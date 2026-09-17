@@ -4,12 +4,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { AppContants } from '../../constants';
+import { RouterOutlet } from '@angular/router';
+
 
 @Component({
   imports: [
     MatButtonModule,
     MatIconModule,
     MatToolbarModule,
+    RouterOutlet
 ],
   selector: 'app-app-root',
   styleUrl: './app-root.scss',

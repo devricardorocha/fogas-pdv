@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { FEATURE_ROUTES } from './features/features.routes';
 
 export const routes: Routes = [
     {
@@ -13,9 +14,7 @@ export const routes: Routes = [
     {
         path: 'app',
         loadComponent: () => import('./core/components/app-root/app-root').then((m) => m.AppRoot),
+        children: FEATURE_ROUTES
     },
-    {
-        path: 'catalog',
-        loadComponent: () => import('./features/product-catalog/product-catalog').then((m) => m.ProductCatalog),
-    }
+    
 ];
