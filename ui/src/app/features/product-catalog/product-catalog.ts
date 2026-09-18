@@ -1,13 +1,20 @@
+import { CurrencyPipe } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
-import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatChipsModule } from '@angular/material/chips';
 import { ProductService } from '../../core/services/product-service';
 
 import { Product } from '../../core';
+import { MatIconModule } from '@angular/material/icon';
+import { ProductCardActions } from '../../core/components/product-card-actions/product-card-actions';
 
 @Component({
   imports: [
-    MatGridListModule
-  ],
+    CurrencyPipe,
+    MatCardModule,
+    MatChipsModule,
+    ProductCardActions
+],
   selector: 'app-product-catalog',
   styleUrl: './product-catalog.scss',
   templateUrl: './product-catalog.html',

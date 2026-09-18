@@ -9,5 +9,6 @@ export interface Product {
   safety_device?: string,
   suggested_price?: number,
   valve_standard?: string,
-  weight_kg?: number
+  weight_kg?: number,
+  image_url?: string,
 }

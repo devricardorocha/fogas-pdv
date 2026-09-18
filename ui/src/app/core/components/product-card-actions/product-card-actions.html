@@ -1,0 +1,7 @@
+<button matFab (click)="addOne()" [disabled]="!canAddOne()" class="add-button" i18n-aria-label="@@addOneProductAriaLabel" aria-label="Add one product">
+    <mat-icon>add</mat-icon>
+</button>
+<output class="quantity" i18n-aria-label="@@selectedProductsAriaLabel" aria-label="Products selected: {{ quantity() }}">{{ quantity() }}</output>
+<button matFab (click)="removeOne()" [disabled]="!canRemoveOne()" class="remove-button" i18n-aria-label="@@removeOneProductAriaLabel" aria-label="Remove one product">
+    <mat-icon>remove</mat-icon>
+</button>

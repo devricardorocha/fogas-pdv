@@ -1,6 +1,26 @@
-<h1 i18n>Products selection</h1>
-<div>
+<h1 i18n="@@productCatalogTitle">What do you need today?</h1>
+<div class="product-grid">
     @for (product of products; track $index) {
-        {{ product.application }}, 
+        <mat-card class="example-card" appearance="outlined">
+            <mat-card-header class="card-header">
+                <mat-card-title>{{product.name}}</mat-card-title>
+            </mat-card-header>
+            <img class="product-image" [src]="product.image_url" [alt]="product.name">
+            <mat-card-content>
+                <div class="product-price">
+                    <data [value]="product.suggested_price" i18n-aria-label="@@suggestedPriceLabel" aria-label="Suggested price">
+                        {{ product.suggested_price | currency:'USD' }}
+                    </data>
+                </div>
+                <span><b i18n="@@productUsageLabel">Usage</b>: {{product.application}}</span>
+            </mat-card-content>
+            <mat-card-footer class="example-card-footer">
+                <app-product-card-actions
+                    [product]="product"
+                    [min]="0"
+                    [max]="5">
+                </app-product-card-actions>
+            </mat-card-footer>
+        </mat-card>
     }
 </div>

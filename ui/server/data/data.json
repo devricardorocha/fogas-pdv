@@ -12,7 +12,8 @@
       "safety_device": "Plugue fusível",
       "suggested_price": 60,
       "valve_standard": "Norma ABNT NBR 8614",
-      "weight_kg": "5"
+      "weight_kg": "5",
+      "image_url": "assets/images/p5.jpeg"
     },
     {
       "application": "Fogões domésticos",
@@ -22,11 +23,12 @@
       "internal_pressure": "2 a 7 Kg/cm²",
       "main_consumer_region": "São Paulo, Mato Grosso, Rio de Janeiro, Piauí, Maranhão, Sergipe e Rondônia",
       "material": "Aço carbono de 2,5 a 3,0 mm de espessura",
-      "name": "P-8",
+      "name": "P8",
       "safety_device": "Plugue fusível",
       "suggested_price": 80,
       "valve_standard": "Norma ABNT NBR 8614",
-      "weight_kg": "8"
+      "weight_kg": "8",
+      "image_url": "assets/images/p8.jpeg"
     },
     {
       "application": "Fogões domésticos",
@@ -36,11 +38,12 @@
       "internal_pressure": "2 a 7 Kg/cm²",
       "main_consumer_region": "Todas as regiões do Brasil",
       "material": "Aço carbono de 2,5 a 3,0 mm de espessura",
-      "name": "P-13",
+      "name": "P13",
       "safety_device": "Plugue fusível",
       "suggested_price": 100,
       "valve_standard": "Norma ABNT NBR 8614",
-      "weight_kg": "13"
+      "weight_kg": "13",
+      "image_url": "assets/images/p13.jpeg"
     },
     {
       "application": "Empilhadeiras e balonismo.",
@@ -50,11 +53,12 @@
       "internal_pressure": "2 a 7 Kg/cm²",
       "main_consumer_region": "Todas as regiões do Brasil",
       "material": "Aço carbono de 2,5 a 3,0 mm de espessura",
-      "name": "P-20",
+      "name": "P20",
       "safety_device": "Válvula sobre pressão",
       "suggested_price": 150,
       "valve_standard": "Norma ABNT NBR 8614 (consumo)",
-      "weight_kg": "20"
+      "weight_kg": "20",
+      "image_url": "assets/images/p20.jpeg"
     },
     {
       "application": "Condomínios, indústrias, hospitais, bares, restaurantes, farmácias, balonismo entre outras.",
@@ -64,11 +68,12 @@
       "internal_pressure": "2 a 7 Kg/cm²",
       "main_consumer_region": "Todas as regiões do Brasil",
       "material": "Aço carbono de 2,5 a 3,0 mm de espessura",
-      "name": "P-45",
+      "name": "P45",
       "safety_device": "Válvula sobre pressão",
       "suggested_price": 240,
       "valve_standard": "Norma ABNT NBR 8614 (consumo)",
-      "weight_kg": "45"
+      "weight_kg": "45",
+      "image_url": "assets/images/p45.jpeg"
     },
     {
       "application": "Condomínios, indústrias, hospitais, bares, restaurantes, farmácias, balonismo entre outras.",
@@ -78,11 +83,12 @@
       "internal_pressure": "2 a 7 Kg/cm²",
       "main_consumer_region": "Todas as regiões do Brasil",
       "material": "Aço carbono de 2,5 a 3,0 mm de espessura",
-      "name": "P-90",
+      "name": "P90",
       "safety_device": "Válvula sobre pressão",
       "suggested_price": 310,
       "valve_standard": "Norma ABNT NBR 8614 (consumo)",
-      "weight_kg": "90"
+      "weight_kg": "90",
+      "image_url": "assets/images/p90.jpeg"
     }
   ],
   "stocks": [

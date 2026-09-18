@@ -1,0 +1,32 @@
+@use '@angular/material' as mat;
+
+:host {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.quantity {
+    display: grid;
+    place-items: center;
+    min-width: 2.5rem;
+    color: var(--mat-sys-on-surface);
+    font: var(--mat-sys-title-medium);
+    font-variant-numeric: tabular-nums;
+}
+
+.add-button {
+    @include mat.fab-overrides((
+        container-color: #2e7d32,
+        foreground-color: #ffffff,
+        state-layer-color: #ffffff,
+    ));
+}
+
+.remove-button {
+    @include mat.fab-overrides((
+        container-color: var(--mat-sys-error),
+        foreground-color: var(--mat-sys-on-error),
+        state-layer-color: var(--mat-sys-on-error),
+    ));
+}

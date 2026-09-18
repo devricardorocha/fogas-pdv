@@ -14,6 +14,30 @@
         <source>Click to start</source>
         <target>Cliquez pour commencer</target>
       </trans-unit>
+      <trans-unit id="addOneProductAriaLabel" datatype="html">
+        <source>Add one product</source>
+        <target>Ajouter un produit</target>
+      </trans-unit>
+      <trans-unit id="selectedProductsAriaLabel" datatype="html">
+        <source>Products selected: <x id="INTERPOLATION" equiv-text="{{ quantity() }}"/></source>
+        <target>Produits sélectionnés : <x id="INTERPOLATION" equiv-text="{{ quantity() }}"/></target>
+      </trans-unit>
+      <trans-unit id="removeOneProductAriaLabel" datatype="html">
+        <source>Remove one product</source>
+        <target>Retirer un produit</target>
+      </trans-unit>
+      <trans-unit id="productCatalogTitle" datatype="html">
+        <source>What do you need today?</source>
+        <target>De quoi avez-vous besoin aujourd'hui ?</target>
+      </trans-unit>
+      <trans-unit id="suggestedPriceLabel" datatype="html">
+        <source>Suggested price</source>
+        <target>Prix suggéré</target>
+      </trans-unit>
+      <trans-unit id="productUsageLabel" datatype="html">
+        <source>Usage</source>
+        <target>Utilisation</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
