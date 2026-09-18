@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: fogaspdv-api
+  datasource:
+    url: jdbc:postgresql://localhost:5433/fogas-pdv
+    username: fogas
+    password: fogas
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
